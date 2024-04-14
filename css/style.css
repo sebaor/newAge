@@ -1,0 +1,111 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.tits{
+    display: flex;
+    justify-content: center;
+}
+.sellos {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.sellos form {
+    text-align: left;
+}
+
+.sellos label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sellos select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.sellos select:focus {
+    outline: none;
+}
+
+.sellos input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sellos input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.datosEmpresa {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.datosEmpresa form {
+    text-align: left;
+}
+
+.datosEmpresa label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.datosEmpresa input[type="number"],
+.datosEmpresa input[type="text"],
+.datosEmpresa input[type="button"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.datosEmpresa input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.datosEmpresa input[type="button"]:hover {
+    background-color: #0056b3;
+}
+#pResultado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: #000000; /* Color del texto */
+    margin-top: 20px; /* Espacio superior */
+}

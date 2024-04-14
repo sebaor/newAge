@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclamos de Sellos</title>
+    <link rel="shortcut icon" href="/assets/img/logoNewAge.png"> 
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="/assets/img/logoNewAge.png" alt="logoN" width="130px">
+        </div>
+    </header>
+    <main>
+        <div class="tits">
+            <h2>Reclamo a Sellos</h2>
+        </div>
+        <div class="sellos">
+        <form action="">
+        <label for="slcSSello">Seleccione el Sello:</label>
+        <select id="selectSello">
+            <option value="Por favor seleccione un sello para reclamar">Seleccionar Sello</option>
+            <option value="comercios@anda.com.uy">ANDA</option>
+            <option value="gestioncomercial@totalnet.uy">VISA</option>
+            <option value="seguridad@cabal.com.uy">CABAL</option>
+            <option value="COMERCIOSABM@scotiabank.com.uy">AMEX</option>
+            <option value="computos@creditosdirectos.com.uy">TARJETA D</option>
+            <option value="comercios@creditel.com.uy">CREDITEL</option>
+            <option value="SoportedeTerminales@oca.com.uy">OCA</option>
+            <option value="rafael.grilloluengo@fiserv.com">MASTER</option>
+            <option value="admincomercial@passcard.com.uy">PASSCARD</option>
+            <option value="atencioncomercios@getnet.com.uy">GETNET</option>
+        </select>
+        </form>
+        <form action="">
+        <label for="slcAsunto">Seleccione Asunto del Correo:</label>
+        <select id="selectAsunto">
+            <option value="Por favor seleccione un asunto de correo">Seleccione Aquí</option>
+            <option value="Comercio inválido">Comercio inválido</option>
+            <option value="Terminal inválida">Terminal inválida</option>
+            <option value="Terminal sin dar de alta">Terminal sin dar de alta</option>
+        </select>
+    </div>
+    </form>
+    <div class="tits">
+        <h2>Datos de la empresa</h2>
+    </div>
+    <div class="datosEmpresa">
+        <form action="">
+        <label for="txtRut">RUT:</label>
+        <input type="number" placeholder="Ingrese aquí" id="txtRut">
+        <br>
+        <label for="razonSocial">Razón Social:</label>
+        <input type="text" placeholder="Ingrese aquí" id="razonSocial">
+        <br>
+        <label for="txtDireccLocal">Dirección de Local:</label>
+        <input type="text" placeholder="Ingrese aquí" id="txtDireccLocal">
+        <br>
+        <label for="txtTerminal">Número de Terminal:</label>
+        <input type="text" placeholder="Ingrese aquí" id="txtTerminal">
+        <br>
+        <label for="txtCComercio">Código de Comercio:</label>
+        <input type="text" placeholder="Ingrese aquí" id="txtCComercio">
+        <br>
+        <input type="button" value="Cargar Información" id="btnCargar">
+    </form>
+    </div>
+    <p id="pResultado"></p>
+    </main>
+    <script src="/js/reclamoSello.js"></script>
+</body>
+</html>
